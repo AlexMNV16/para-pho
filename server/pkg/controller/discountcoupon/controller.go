@@ -145,19 +145,19 @@ func (c *Controller) sendCouponEmail(ctx context.Context, user ente.User, coupon
 	var subject, templateName string
 	switch providerName {
 	case "Kagi":
-		subject = "Parafilm Friends -Kagi trial code"
+		subject = "Parafilm Friends - Kagi trial code"
 		templateName = "discount_coupon_kagi.html"
 	case "Tuta":
-		subject = "Parafilm Friends -Tuta discount code"
+		subject = "Parafilm Friends - Tuta discount code"
 		templateName = "discount_coupon_tuta.html"
 	case "Notesnook":
-		subject = "Parafilm Friends -Notesnook discount code"
+		subject = "Parafilm Friends - Notesnook discount code"
 		templateName = "discount_coupon_notesnook.html"
 	case "Windscribe":
-		subject = "Parafilm Friends -Windscribe discount code"
+		subject = "Parafilm Friends - Windscribe discount code"
 		templateName = "discount_coupon_windscribe.html"
 	case "Test":
-		subject = "Parafilm Friends -Test trial code"
+		subject = "Parafilm Friends - Test trial code"
 		templateName = "discount_coupon_test.html"
 	default:
 		subject = fmt.Sprintf("Your %s Discount Code", providerName)

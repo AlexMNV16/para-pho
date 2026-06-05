@@ -145,25 +145,25 @@ func (c *Controller) sendCouponEmail(ctx context.Context, user ente.User, coupon
 	var subject, templateName string
 	switch providerName {
 	case "Kagi":
-		subject = "Ente Friends - Kagi trial code"
+		subject = "Parafilm Friends -Kagi trial code"
 		templateName = "discount_coupon_kagi.html"
 	case "Tuta":
-		subject = "Ente Friends - Tuta discount code"
+		subject = "Parafilm Friends -Tuta discount code"
 		templateName = "discount_coupon_tuta.html"
 	case "Notesnook":
-		subject = "Ente Friends - Notesnook discount code"
+		subject = "Parafilm Friends -Notesnook discount code"
 		templateName = "discount_coupon_notesnook.html"
 	case "Windscribe":
-		subject = "Ente Friends - Windscribe discount code"
+		subject = "Parafilm Friends -Windscribe discount code"
 		templateName = "discount_coupon_windscribe.html"
 	case "Test":
-		subject = "Ente Friends - Test trial code"
+		subject = "Parafilm Friends -Test trial code"
 		templateName = "discount_coupon_test.html"
 	default:
 		subject = fmt.Sprintf("Your %s Discount Code", providerName)
 		templateName = "discount_coupon.html"
 	}
-	return emailUtil.SendTemplatedEmailV2([]string{user.Email}, "Ente", "team@ente.com", subject, "base.html", templateName, templateData, nil)
+	return emailUtil.SendTemplatedEmailV2([]string{user.Email}, "Parafilm", "team@ente.com", subject, "base.html", templateName, templateData, nil)
 }
 
 func (c *Controller) alertCouponsDepletedDiscord(providerName string) {

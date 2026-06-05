@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Auth
-GenericName=Ente Authenticator
+GenericName=Parafilm Authenticator
 Exec=enteauth %U
 Icon=io.ente.auth
 Type=Application

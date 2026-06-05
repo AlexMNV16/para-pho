@@ -44,7 +44,7 @@ const (
 	OnHoldTemplate = "on_hold.html"
 
 	// AccountOnHoldEmailSubject is the subject of account on hold email
-	AccountOnHoldEmailSubject = "Ente account on hold"
+	AccountOnHoldEmailSubject = "Parafilm account on hold"
 
 	// Template for the email we send out when the user's subscription ends,
 	// either because the user cancelled their subscription, or because it
@@ -52,7 +52,7 @@ const (
 	SubscriptionEndedEmailTemplate = "subscription_ended.html"
 
 	// Subject for `SubscriptionEndedEmailTemplate`.
-	SubscriptionEndedEmailSubject = "Your subscription to Ente Photos has ended"
+	SubscriptionEndedEmailSubject = "Your subscription to Parafilm Photos has ended"
 )
 
 // PaymentProvider represents the payment provider via which a purchase was made

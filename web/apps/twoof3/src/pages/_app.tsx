@@ -67,7 +67,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             defaultMode="system"
             storageManager={null}
         >
-            <CustomHead title="2of3 by Ente" />
+            <CustomHead title="2of3 by Parafilm" />
             <CssBaseline enableColorScheme />
             <Component {...pageProps} />
         </ThemeProvider>

@@ -163,7 +163,7 @@ class _AuthQrDialogState extends State<AuthQrDialog> {
                         clipBehavior: Clip.none,
                         alignment: Alignment.center,
                         children: [
-                          // Ente Auth icon at top right - positioned at corner
+                          // Parafilm Auth icon at top right - positioned at corner
                           Positioned(
                             top: 2,
                             right: 2,

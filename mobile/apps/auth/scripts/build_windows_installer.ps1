@@ -36,12 +36,12 @@ $iss = @"
 [Setup]
 AppId=9E5F0C93-96A3-4DA9-AE52-1AA6339851FC
 AppVersion=$appVersion
-AppName=Ente Auth
+AppName=Parafilm Auth
 AppPublisher=ente.io
 AppPublisherURL=https://github.com/ente-io/ente
 AppSupportURL=https://github.com/ente-io/ente
 AppUpdatesURL=https://github.com/ente-io/ente
-DefaultDirName={autopf}\Ente Auth
+DefaultDirName={autopf}\Parafilm Auth
 DisableProgramGroupPage=yes
 OutputDir=$escapedInstallerDir
 OutputBaseFilename=$outputBaseFilename
@@ -60,19 +60,19 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-Name: "launchAtStartup"; Description: "{cm:AutoStartProgram,Ente Auth}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+Name: "launchAtStartup"; Description: "{cm:AutoStartProgram,Parafilm Auth}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
 Source: "$sourceGlob"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{autoprograms}\Ente Auth"; Filename: "{app}\auth.exe"
-Name: "{autodesktop}\Ente Auth"; Filename: "{app}\auth.exe"; Tasks: desktopicon
-Name: "{userstartup}\Ente Auth"; Filename: "{app}\auth.exe"; WorkingDir: "{app}"; Tasks: launchAtStartup
+Name: "{autoprograms}\Parafilm Auth"; Filename: "{app}\auth.exe"
+Name: "{autodesktop}\Parafilm Auth"; Filename: "{app}\auth.exe"; Tasks: desktopicon
+Name: "{userstartup}\Parafilm Auth"; Filename: "{app}\auth.exe"; WorkingDir: "{app}"; Tasks: launchAtStartup
 
 [Run]
-Filename: "{app}\auth.exe"; Description: "{cm:LaunchProgram,Ente Auth}"; Flags: runascurrentuser nowait postinstall skipifsilent
+Filename: "{app}\auth.exe"; Description: "{cm:LaunchProgram,Parafilm Auth}"; Flags: runascurrentuser nowait postinstall skipifsilent
 "@
 
 $utf8WithBom = [System.Text.UTF8Encoding]::new($true)

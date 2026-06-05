@@ -146,8 +146,8 @@ func (c *Client) SendTestMail(ctx context.Context, toEmail, fromEmail, fromName 
 		"to":        []string{toEmail},
 		"fromName":  fromName,
 		"fromEmail": fromEmail,
-		"subject":   "Test mail from Ente",
-		"body":      "This is a test mail from Ente",
+		"subject":   "Test mail from Parafilm",
+		"body":      "This is a test mail from Parafilm",
 	}
 	r, err := c.restClient.R().
 		SetContext(ctx).

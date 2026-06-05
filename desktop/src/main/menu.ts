@@ -34,9 +34,9 @@ export const createApplicationMenu = (mainWindow: BrowserWindow) => {
 
     return Menu.buildFromTemplate([
         {
-            label: "Ente Photos",
+            label: "Parafilm Photos",
             submenu: [
-                ...macOSOnly([{ label: "About Ente", role: "about" }]),
+                ...macOSOnly([{ label: "About Parafilm", role: "about" }]),
                 { type: "separator" },
                 { label: "Check for Updates...", click: handleCheckForUpdates },
                 { type: "separator" },
@@ -57,7 +57,7 @@ export const createApplicationMenu = (mainWindow: BrowserWindow) => {
 
                 { type: "separator" },
                 ...macOSOnly([
-                    { label: "Hide Ente", role: "hide" },
+                    { label: "Hide Parafilm", role: "hide" },
                     { label: "Hide Others", role: "hideOthers" },
                     { type: "separator" },
                 ]),
@@ -105,11 +105,11 @@ export const createApplicationMenu = (mainWindow: BrowserWindow) => {
                     { type: "separator" },
                     { label: "Bring All to Front", role: "front" },
                     { type: "separator" },
-                    { label: "Ente Photos", role: "window" },
+                    { label: "Parafilm Photos", role: "window" },
                 ]),
             ],
         },
-        { label: "Help", submenu: [{ label: "Ente Help", click: handleHelp }] },
+        { label: "Help", submenu: [{ label: "Parafilm Help", click: handleHelp }] },
     ]);
 };
 
@@ -128,7 +128,7 @@ export const createTrayContextMenu = (mainWindow: BrowserWindow) => {
     };
 
     return Menu.buildFromTemplate([
-        { label: "Open Ente", click: handleOpen },
-        { label: "Quit Ente", click: handleClose },
+        { label: "Open Parafilm", click: handleOpen },
+        { label: "Quit Parafilm", click: handleClose },
     ]);
 };

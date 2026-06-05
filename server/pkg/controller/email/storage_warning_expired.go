@@ -25,12 +25,12 @@ const (
 	storageWarningExpired90TemplateID  = "storage_warning_expired_90d"
 	storageWarningExpired119TemplateID = "storage_warning_expired_119d"
 
-	storageWarningExpired0Subject                 = "Action needed: Your Ente subscription has expired"
-	storageWarningExpired30Subject                = "Reminder: Your Ente data is scheduled for deletion"
-	storageWarningExpired60Subject                = "Reminder: Renew your Ente plan to avoid data deletion"
-	storageWarningExpired90Subject                = "30-day reminder: Your Ente data will be deleted in 30 days"
-	storageWarningExpired119Subject               = "Final reminder: Your Ente data will be deleted tomorrow"
-	storageWarningExpiredScheduledDeletionSubject = "Your Ente data is scheduled for deletion"
+	storageWarningExpired0Subject                 = "Action needed: Your Parafilm subscription has expired"
+	storageWarningExpired30Subject                = "Reminder: Your Parafilm data is scheduled for deletion"
+	storageWarningExpired60Subject                = "Reminder: Renew your Parafilm plan to avoid data deletion"
+	storageWarningExpired90Subject                = "30-day reminder: Your Parafilm data will be deleted in 30 days"
+	storageWarningExpired119Subject               = "Final reminder: Your Parafilm data will be deleted tomorrow"
+	storageWarningExpiredScheduledDeletionSubject = "Your Parafilm data is scheduled for deletion"
 )
 
 type expiredWarningStage string

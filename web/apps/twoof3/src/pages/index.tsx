@@ -141,7 +141,7 @@ const HELP_FAQS = [
         answer: "Open 2of3 again, or use the offline recovery page that downloads with the cards. Upload any two card images, or paste their codes, and the secret appears on your device.",
     },
     {
-        question: "Does this send my secret to Ente?",
+        question: "Does this send my secret to Parafilm?",
         answer: "No. Your secret is split and recovered in your browser. The downloaded recovery page also works fully offline.",
     },
     {
@@ -1016,7 +1016,7 @@ const Page = () => {
                     name="description"
                     content="Turn one important secret into 3 recovery cards you can keep in different places. Any 2 cards bring it back."
                 />
-                <meta property="og:title" content="2of3 by Ente" />
+                <meta property="og:title" content="2of3 by Parafilm" />
                 <meta
                     property="og:description"
                     content="Turn one important secret into 3 recovery cards you can keep in different places. Any 2 cards bring it back."

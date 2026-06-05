@@ -2,9 +2,9 @@
     "name": "ente",
     "version": "1.7.25-beta",
     "private": true,
-    "description": "Desktop client for Ente Photos",
+    "description": "Desktop client for Parafilm Photos",
     "repository": "github:ente-io/photos-desktop",
-    "author": "Ente <code@ente.com>",
+    "author": "Parafilm <code@ente.com>",
     "main": "app/main.js",
     "scripts": {
         "build": "npm run build-renderer && npm run build-main",

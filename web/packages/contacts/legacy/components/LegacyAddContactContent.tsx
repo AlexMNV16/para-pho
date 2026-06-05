@@ -108,7 +108,7 @@ export const LegacyAddContactContent: React.FC<
                 showMiniDialog({
                     title: "Verification ID unavailable",
                     message:
-                        "That email is not linked to an Ente account yet, so there is no public key to verify.",
+                        "That email is not linked to a Parafilm account yet, so there is no public key to verify.",
                 });
                 return;
             }

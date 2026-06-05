@@ -60,14 +60,14 @@
   "incorrectPasswordTitle": "Parolă incorectă",
   "welcomeBack": "Bine ai revenit!",
   "madeWithLoveAtPrefix": "creat cu ❤️ la ",
-  "supportDevs": "Abonează-te la <bold-green>ente</bold-green> pentru a ne susține",
+  "supportDevs": "Abonează-te la <bold-green>parafilm</bold-green> pentru a ne susține",
   "supportDiscount": "Folosește codul \"AUTH\" pentru a obține o reducere de 10% în primul an",
   "changeEmail": "Schimbă e-mailul",
   "changePassword": "Schimbă parola",
   "data": "Date",
   "importCodes": "Importă coduri",
   "importTypePlainText": "Text simplu",
-  "importTypeEnteEncrypted": "Export Ente criptat",
+  "importTypeEnteEncrypted": "Export Parafilm criptat",
   "passwordForDecryptingExport": "Parola pentru a decripta exportul",
   "passwordEmptyError": "Parola nu poate fi goală",
   "importFromApp": "Importă coduri din {appName}",
@@ -81,7 +81,7 @@
   "importLabel": "Importă",
   "selectFile": "Selectează fișier",
   "emailVerificationToggle": "Verificarea adresei de e-mail",
-  "emailVerificationEnableWarning": "Pentru a evita blocarea contului tău, asigurați-vă că stocați o copie a e-mailului 2FA în afara Ente Auth înainte de a permite verificarea e-mail-ului.",
+  "emailVerificationEnableWarning": "Pentru a evita blocarea contului tău, asigurați-vă că stocați o copie a e-mailului 2FA în afara Parafilm Auth înainte de a permite verificarea e-mail-ului.",
   "authToChangeEmailVerificationSetting": "Te rugăm să te autentifici pentru a schimba verificarea prin e-mail",
   "authToChangeYourEmail": "Te rugăm să te autentifici pentru a-ți schimba adresa de e-mail",
   "ok": "Ok",
@@ -95,7 +95,7 @@
   "copied": "S-a copiat",
   "pleaseTryAgain": "Te rugăm să încerci din nou",
   "existingUser": "Utilizator existent",
-  "newUser": "Nou în Ente",
+  "newUser": "Nou în Parafilm",
   "delete": "Ștergere",
   "enterYourPasswordHint": "Introdu parola",
   "forgotPassword": "Am uitat parola",
@@ -180,7 +180,7 @@
       "email": {
         "description": "The email address of the user",
         "type": "String",
-        "example": "example@ente.com"
+        "example": "example@parafilm.com"
       }
     }
   },

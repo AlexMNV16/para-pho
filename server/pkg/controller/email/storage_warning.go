@@ -22,7 +22,7 @@ const (
 	StorageWarningMailLock = "storage_warning_mail_lock"
 
 	storageWarningBaseTemplate = "ente_base.html"
-	storageWarningFromName     = "Ente"
+	storageWarningFromName     = "Parafilm"
 	storageWarningFromEmail    = "support@ente.com"
 
 	storageWarningOverageThreshold             = 25 * (1 << 30)

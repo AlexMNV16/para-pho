@@ -4,7 +4,7 @@ publisher: ente.io
 publisher_url: https://github.com/ente-io/ente
 display_name: Parafilm Auth
 create_desktop_icon: false
-install_dir_name: "{autopf}\\Ente Auth"
+install_dir_name: "{autopf}\\Parafilm Auth"
 setup_icon_file: assets/icons/auth-icon.ico
 script_template: inno_setup.iss
 locales:

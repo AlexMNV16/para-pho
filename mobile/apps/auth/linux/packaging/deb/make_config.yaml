@@ -1,9 +1,9 @@
-display_name: Ente Auth
+display_name: Parafilm Auth
 package_name: enteauth
 include_build_number: false
 
 maintainer:
-  name: Ente Developers
+  name: Parafilm Developers
   email: auth@ente.com
 priority: optional
 section: x11
@@ -34,7 +34,7 @@ keywords:
   - Authentication
   - 2FA
 
-generic_name: Ente Authenticator
+generic_name: Parafilm Authenticator
 
 categories:
   - Utility

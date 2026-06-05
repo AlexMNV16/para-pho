@@ -17,10 +17,10 @@ const (
 	storageWarningActiveOverage60TemplateID              = "storage_warning_active_overage_60d"
 	storageWarningActiveOverage89TemplateID              = "storage_warning_active_overage_89d"
 	storageWarningActiveOverage0Subject                  = "Action needed: Reduce usage or upgrade your Parafilm plan"
-	storageWarningActiveOverage30Subject                 = "Reminder: Your Ente data is scheduled for deletion due to overusage"
-	storageWarningActiveOverage60Subject                 = "30-day reminder: Your Ente data will be deleted in 30 days due to overusage"
-	storageWarningActiveOverage89Subject                 = "Final reminder: Your Ente data will be deleted tomorrow due to overusage"
-	storageWarningActiveOverageScheduledDeletionSubject  = "Your Ente data is scheduled for deletion due to overusage"
+	storageWarningActiveOverage30Subject                 = "Reminder: Your Parafilm data is scheduled for deletion due to overusage"
+	storageWarningActiveOverage60Subject                 = "30-day reminder: Your Parafilm data will be deleted in 30 days due to overusage"
+	storageWarningActiveOverage89Subject                 = "Final reminder: Your Parafilm data will be deleted tomorrow due to overusage"
+	storageWarningActiveOverageScheduledDeletionSubject  = "Your Parafilm data is scheduled for deletion due to overusage"
 )
 
 type activeOverageWarningStage string

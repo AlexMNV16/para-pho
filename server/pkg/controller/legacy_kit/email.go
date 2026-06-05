@@ -31,7 +31,7 @@ func (c *Controller) sendRecoveryStartedNotification(ctx context.Context, userID
 	}
 	if err := email.SendTemplatedEmailV2(
 		[]string{user.Email},
-		"Ente",
+		"Parafilm",
 		"team@ente.com",
 		"Legacy Kit recovery initiated",
 		legacyKitBaseTemplate,
@@ -52,7 +52,7 @@ func (c *Controller) sendRecoveryCompletedNotification(ctx context.Context, user
 	}
 	if err := email.SendTemplatedEmailV2(
 		[]string{user.Email},
-		"Ente",
+		"Parafilm",
 		"team@ente.com",
 		"Legacy Kit recovery completed",
 		legacyKitBaseTemplate,

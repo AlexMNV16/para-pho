@@ -72,7 +72,7 @@
   "incorrectPasswordTitle": "ግጉይ ቃለ-ምስጢር",
   "welcomeBack": "እንኳዕ ብደሓን ተመለስካ!",
   "madeWithLoveAtPrefix": "ምስ ❤️ ዝተሰርሐ ኣብ ",
-  "supportDevs": "ንዓና ንምድጋፍ ኣብ <bold-green>ente</bold-green> ተሓወስ ግበሩ",
+  "supportDevs": "ንዓና ንምድጋፍ ኣብ <bold-green>parafilm</bold-green> ተሓወስ ግበሩ",
   "supportDiscount": "ኣብ ቀዳማይ ዓመት 10% ቅናስ ንምርካብ \"AUTH\" ኮድ ተጠቐም",
   "changeEmail": "Change email",
   "changePassword": "ቃለ-ምስጢር ቀያይር",
@@ -95,7 +95,7 @@
   "importCodeDelimiterInfo": "The codes can be separated by a comma or a new line",
   "selectFile": "Select file",
   "emailVerificationToggle": "Email verification",
-  "emailVerificationEnableWarning": "To avoid getting locked out of your account, be sure to store a copy of your email 2FA outside of Ente Auth before enabling email verification.",
+  "emailVerificationEnableWarning": "To avoid getting locked out of your account, be sure to store a copy of your email 2FA outside of Parafilm Auth before enabling email verification.",
   "authToChangeEmailVerificationSetting": "Please authenticate to change email verification",
   "authToViewYourRecoveryKey": "Please authenticate to view your recovery key",
   "authToChangeYourEmail": "Please authenticate to change your email",
@@ -113,7 +113,7 @@
   "copied": "Copied",
   "pleaseTryAgain": "Please try again",
   "existingUser": "Existing User",
-  "newUser": "ሓድሽ ናብ Ente",
+  "newUser": "ሓድሽ ናብ Parafilm",
   "delete": "Delete",
   "enterYourPasswordHint": "Enter your password",
   "forgotPassword": "Forgot password",
@@ -284,7 +284,7 @@
       "email": {
         "description": "The email address of the user",
         "type": "String",
-        "example": "example@ente.com"
+        "example": "example@parafilm.com"
       }
     }
   },
@@ -386,6 +386,6 @@
   "signOutOtherBody": "If you think someone might know your password, you can force all other devices using your account to sign out.",
   "signOutOtherDevices": "ካብ ካልኦት መሳርሒታት ኣውጽኡኒ።",
   "doNotSignOut": "ኣውጽኡኒ።",
-  "hearUsWhereTitle": "How did you hear about Ente? (optional)",
+  "hearUsWhereTitle": "How did you hear about Parafilm? (optional)",
   "hearUsExplanation": "ተጠቀምትና ኣይንከታተልን ኢና። ኣበይ ከም ዝረኸብካና እንተ ትነግረና ሓጋዚ እዩ፦"
 }

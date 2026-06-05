@@ -449,7 +449,7 @@ const LandingStep: React.FC<LandingStepProps> = ({ onStart }) => (
                         lineHeight: { xs: "28px", md: "44px" },
                     }}
                 >
-                    Recover an Ente account
+                    Recover a Parafilm account
                 </Typography>
                 <Typography
                     sx={{
@@ -462,7 +462,7 @@ const LandingStep: React.FC<LandingStepProps> = ({ onStart }) => (
                     }}
                 >
                     Use your legacy kit recovery sheets to regain access to an
-                    Ente account.
+                    Parafilm account.
                 </Typography>
             </Stack>
 

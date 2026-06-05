@@ -722,7 +722,7 @@ const setupTrayItem = (mainWindow: BrowserWindow) => {
     );
     const trayIcon = nativeImage.createFromPath(trayImgPath);
     const tray = new Tray(trayIcon);
-    tray.setToolTip("Ente Photos");
+    tray.setToolTip("Parafilm Photos");
     tray.setContextMenu(createTrayContextMenu(mainWindow));
     if (process.platform === "linux") {
         tray.on("click", () => {

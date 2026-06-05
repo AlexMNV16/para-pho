@@ -8,7 +8,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
-echo -e "${GREEN}Building Ente Auth RPM package${NC}"
+echo -e "${GREEN}Building Parafilm Auth RPM package${NC}"
 
 # Get script directory (location of this script)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -93,8 +93,8 @@ echo -e "${YELLOW}Building RPM package...${NC}"
 fpm -s dir -t rpm \
   -n enteauth \
   -v "$VERSION" \
-  --vendor "Ente" \
-  --maintainer "Ente Developers <auth@ente.com>" \
+  --vendor "Parafilm" \
+  --maintainer "Parafilm Developers <auth@ente.com>" \
   --license "AGPLv3" \
   --url "https://github.com/ente-io/ente" \
   --description "2FA app with free end-to-end encrypted backup and sync" \

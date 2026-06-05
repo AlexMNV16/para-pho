@@ -114,7 +114,7 @@ func NewRepository(
 
 func newWebAuthnInstance(rpID string, rpOrigins []string) (*webauthn.WebAuthn, error) {
 	wconfig := &webauthn.Config{
-		RPDisplayName: "Ente",
+		RPDisplayName: "Parafilm",
 		RPID:          rpID,
 		RPOrigins:     rpOrigins,
 		Timeouts: webauthn.TimeoutsConfig{

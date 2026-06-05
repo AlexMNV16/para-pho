@@ -3,7 +3,7 @@
     <id>enteauth</id>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>AGPL-3.0</project_license>
-    <name>Ente Auth</name>
+    <name>Parafilm Auth</name>
     <summary>FOSS, cross-platform 2FA app</summary>
     <description>
         <p>Auth provides end-to-end encrypted cloud backups so you don't have to worry about losing your tokens. Our cryptography has been externally audited.</p>

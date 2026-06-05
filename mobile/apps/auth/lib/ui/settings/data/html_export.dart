@@ -240,7 +240,7 @@ Future<String> generateHtml(BuildContext context) async {
 </style>
   </head>
   <body>
-    <h1 style="text-align: center;">Ente Auth</h1>
+    <h1 style="text-align: center;">Parafilm Auth</h1>
     <h4 style="text-align: center; margin-bottom: 5px;">OTP Data Export</h4>
     <p style="text-align: center; margin-top: 0px;">$formattedDate</p>
     <div class="gutter" style="padding: 4px">&nbsp;</div>

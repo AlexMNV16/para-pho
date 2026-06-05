@@ -73,7 +73,7 @@ export const PasteFrame = ({ children, footer }: PasteFrameProps) => {
                         direction="row"
                         alignItems="center"
                         spacing={0.35}
-                        aria-label="Go to Ente Paste home"
+                        aria-label="Go to Parafilm Paste home"
                         sx={{
                             color: tokens.frame.logoTint,
                             lineHeight: 0,

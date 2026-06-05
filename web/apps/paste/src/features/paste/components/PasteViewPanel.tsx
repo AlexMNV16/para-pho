@@ -400,7 +400,7 @@ export const PasteViewPanel = ({
                             alignSelf: "center",
                         }}
                     >
-                        This paste has been removed from Ente servers.
+                        This paste has been removed from Parafilm servers.
                     </Typography>
                 </Stack>
             )}

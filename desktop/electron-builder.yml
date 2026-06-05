@@ -8,14 +8,14 @@ extraFiles:
       to: resources
 beforeBuild: scripts/beforeBuild.js
 protocols:
-    - name: Ente
+    - name: Parafilm
       schemes: ["ente"]
 win:
     target:
         - target: nsis
           arch: [x64, arm64]
     azureSignOptions:
-        publisherName: ENTE TECHNOLOGIES, INC.
+        publisherName: PARAFILM TECHNOLOGIES, INC.
         endpoint: https://eus.codesigning.azure.net/
         certificateProfileName: EnteTrustCertProfile
         codeSigningAccountName: EnteTechnologiesInc

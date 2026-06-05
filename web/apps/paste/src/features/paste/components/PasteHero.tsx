@@ -15,7 +15,7 @@ export const PasteHero = () => {
                 color: tokens.text.primary,
             }}
         >
-            Ente Paste
+            Parafilm Paste
         </Typography>
     );
 };

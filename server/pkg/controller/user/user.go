@@ -95,7 +95,7 @@ const (
 	CryptoPwhashMemLimitInteractive = 67108864
 	CryptoPwhashOpsLimitInteractive = 2
 
-	TOTPIssuerORG = "ente"
+	TOTPIssuerORG = "parafilm"
 
 	// Template and subject for the mail that we send when the user deletes
 	// their account.
@@ -345,7 +345,7 @@ func (c *UserController) NotifyAccountDeletion(userID int64, userEmail string, i
 
 	templateData := make(map[string]interface{})
 	templateData["AccountRecoveryLink"] = accountRecoveryLink
-	err = email.SendTemplatedEmail([]string{userEmail}, "ente", "team@ente.com",
+	err = email.SendTemplatedEmail([]string{userEmail}, "parafilm", "team@ente.com",
 		AccountDeletedEmailSubject, template, templateData, nil)
 	if err != nil {
 		logrus.WithError(err).Errorf("Failed to send the account deletion email to %s", userEmail)

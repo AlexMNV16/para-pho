@@ -16,7 +16,7 @@ db:
     password: <password>
 
 # This section is for configuring storage buckets. Omit this section if
-# you only intend to use Ente Auth
+# you only intend to use Parafilm Auth
 s3:
     # Change this to false if enabling SSL
     are_local_buckets: true
@@ -57,7 +57,7 @@ apps:
     # If you're running a self hosted instance and wish to serve public links
     # for locker, set this to the URL where your share web app is running.
     public-locker: http://localhost:3005
-    # If you're running a self hosted instance and wish to serve Ente Paste,
+    # If you're running a self hosted instance and wish to serve Parafilm Paste,
     # set this to the URL where your paste web app is running.
     public-paste: http://localhost:3008
     # If you're running a self hosted instance and wish to serve public memory

@@ -327,7 +327,7 @@ func (c *UserController) UpdateEmail(ctx *gin.Context, userID int64, email strin
 		return stacktrace.Propagate(err, "")
 	}
 	c.touchContactsAfterEmailUpdate(ctx, userID)
-	_ = emailUtil.SendTemplatedEmail([]string{user.Email}, "ente", "team@ente.com",
+	_ = emailUtil.SendTemplatedEmail([]string{user.Email}, "parafilm", "team@ente.com",
 		ente.EmailChangedSubject, ente.EmailChangedTemplate, map[string]interface{}{
 			"NewEmail": email,
 		}, nil)

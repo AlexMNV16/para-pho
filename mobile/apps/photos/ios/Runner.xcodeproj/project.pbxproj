@@ -1030,7 +1030,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ente Photos";
+				INFOPLIST_KEY_CFBundleDisplayName = "Parafilm Photos";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1072,7 +1072,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ente Photos";
+				INFOPLIST_KEY_CFBundleDisplayName = "Parafilm Photos";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Ente Technologies, Inc. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1118,7 +1118,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ente Photos";
+				INFOPLIST_KEY_CFBundleDisplayName = "Parafilm Photos";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Ente Technologies, Inc. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1163,7 +1163,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ente Photos";
+				INFOPLIST_KEY_CFBundleDisplayName = "Parafilm Photos";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Ente Technologies, Inc. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1317,7 +1317,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "Ente Debug";
+				APP_DISPLAY_NAME = "Parafilm Debug";
 				ASSETCATALOG_COMPILER_APPICON_NAME = IconGreen;
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = IconGreen;
 				CLANG_ENABLE_MODULES = YES;
@@ -1333,7 +1333,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ente Photos";
+				INFOPLIST_KEY_CFBundleDisplayName = "Parafilm Photos";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1360,7 +1360,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "Ente Photos";
+				APP_DISPLAY_NAME = "Parafilm Photos";
 				ASSETCATALOG_COMPILER_APPICON_NAME = IconGreen;
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=*]" = IconGreen;
 				CLANG_ENABLE_MODULES = YES;
@@ -1376,7 +1376,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ente Photos";
+				INFOPLIST_KEY_CFBundleDisplayName = "Parafilm Photos";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

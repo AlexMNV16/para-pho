@@ -70,17 +70,17 @@ export const desktopAppVersion = buildEnvDesktopAppVersion;
  * This is shown until we have the localized version.
  */
 export const staticAppTitle = {
-    accounts: "Ente Accounts",
-    albums: "Ente Photos",
-    auth: "Ente Auth",
-    cast: "Ente Photos",
-    embed: "Ente Photos",
-    share: "Ente Locker",
-    photos: "Ente Photos",
+    accounts: "Parafilm Accounts",
+    albums: "Parafilm Photos",
+    auth: "Parafilm Auth",
+    cast: "Parafilm Photos",
+    embed: "Parafilm Photos",
+    share: "Parafilm Locker",
+    photos: "Parafilm Photos",
     // Ensu (chat) web app.
     ensu: "Ensu",
-    locker: "Ente Locker",
-    legacy: "Ente Legacy Kit",
+    locker: "Parafilm Locker",
+    legacy: "Parafilm Legacy Kit",
 }[appName];
 
 /**

@@ -698,7 +698,7 @@ export function MemoryViewer({
                         >
                             <EnteBrandTagImage
                                 src={ENTE_BRAND_TAG_IMAGE_PATH}
-                                alt="Ente Photos"
+                                alt="Parafilm Photos"
                             />
                         </BrandLink>
                         <MobileHeaderSpacer aria-hidden="true" />
@@ -710,7 +710,7 @@ export function MemoryViewer({
                             target="_blank"
                             rel="noopener"
                         >
-                            Get Ente Photos
+                            Get Parafilm Photos
                         </MobileJoinNowButton>
                     </MobileTopActions>
                 ) : (
@@ -723,7 +723,7 @@ export function MemoryViewer({
                         >
                             <EnteBrandTagImage
                                 src={ENTE_BRAND_TAG_IMAGE_PATH}
-                                alt="Ente Photos"
+                                alt="Parafilm Photos"
                             />
                         </TopLeftBrandLink>
 
@@ -743,7 +743,7 @@ export function MemoryViewer({
                                         : undefined
                                 }
                             >
-                                Get Ente Photos
+                                Get Parafilm Photos
                             </JoinNowButton>
                         </TopRightActions>
                     </TopControls>

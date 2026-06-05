@@ -704,7 +704,7 @@ export function LaneMemoryViewer({
                         >
                             <EnteBrandTagImage
                                 src={ENTE_BRAND_TAG_IMAGE_PATH}
-                                alt="Ente Photos"
+                                alt="Parafilm Photos"
                             />
                         </LaneHeaderBrandLink>
                     </LaneTopBrandSection>
@@ -718,7 +718,7 @@ export function LaneMemoryViewer({
                             rel="noopener"
                             sx={laneHeaderJoinNowButtonSx}
                         >
-                            Get Ente Photos
+                            Get Parafilm Photos
                         </JoinNowButton>
                     </LaneTopActionSection>
                 </LaneTopBar>

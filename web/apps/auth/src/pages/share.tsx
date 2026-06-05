@@ -220,7 +220,7 @@ const Page: React.FC = () => {
                 href="https://ente.com/auth"
                 target="_blank"
             >
-                Try Ente Auth
+                Try Parafilm Auth
             </Button>
         </Stack>
     );

@@ -54,7 +54,7 @@ const exportRecordFileName = "export_status.json";
  * Name of the top level directory which we create underneath the selected
  * directory when the user starts an export to the file system.
  */
-const exportDirectoryName = "Ente Photos";
+const exportDirectoryName = "Parafilm Photos";
 
 export const ExportStage = {
     init: 0,
@@ -80,7 +80,7 @@ export interface ExportProgress {
  */
 export interface ExportSettings {
     /**
-     * The parent folder where the "Ente Photos" folder containing the export
+     * The parent folder where the "Parafilm Photos" folder containing the export
      * will be placed.
      */
     folder?: string;

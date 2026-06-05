@@ -26,7 +26,7 @@ const (
 	FirstUploadEmailSubject      = "Congratulations! 🎉"
 
 	CustomerHelloMailLock   = "customer_hello_mail_lock"
-	CustomerHelloSubject    = "Hello from Ente"
+	CustomerHelloSubject    = "Hello from Parafilm"
 	CustomerHelloTemplate   = "customer_hello.html"
 	CustomerHelloTemplateID = "customer_hello"
 
@@ -39,22 +39,22 @@ const (
 	FilesCollectedSubject    = "You've got photos!"
 
 	SubscriptionUpgradedTemplate = "subscription_upgraded.html"
-	SubscriptionUpgradedSubject  = "Thank you for choosing Ente!"
+	SubscriptionUpgradedSubject  = "Thank you for choosing Parafilm!"
 
-	SubscriptionCancelledSubject        = "Good bye (?) from Ente"
+	SubscriptionCancelledSubject        = "Good bye (?) from Parafilm"
 	SubscriptionCancelledTemplate       = "subscription_cancelled.html"
 	FilesCollectedMuteDurationInMinutes = 10
 
 	StorageLimitExceededSubject = "[Alert] You have exceeded your storage limit"
 	ReferralSuccessfulTemplate  = "successful_referral.html"
-	ReferralSuccessfulSubject   = "You've earned 10 GB on Ente! 🎁"
+	ReferralSuccessfulSubject   = "You've earned 10 GB on Parafilm! 🎁"
 
-	LoginSuccessSubject  = "New login to your Ente account"
+	LoginSuccessSubject  = "New login to your Parafilm account"
 	LoginSuccessTemplate = "on_login.html"
 
 	FamilyNudgeMailLock   = "family_nudge_mail_lock"
 	FamilyNudgeTemplate   = "family_nudge.html"
-	FamilyNudgeSubject    = "Share your Ente Subscription with your Family!"
+	FamilyNudgeSubject    = "Share your Parafilm Subscription with your Family!"
 	FamilyNudgeTemplateID = "family_nudge"
 )
 
@@ -115,7 +115,7 @@ func (c *EmailNotificationController) OnLinkJoined(ownerID int64, otherUserID in
 		"Role":           role,
 	}
 	err = email.SendTemplatedEmailV2(
-		[]string{user.Email}, "Ente", "team@ente.com",
+		[]string{user.Email}, "Parafilm", "team@ente.com",
 		fmt.Sprintf("%s has joined your album", otherUser.Email), "base.html", "on_link_joined.html", data, nil)
 	if err != nil {
 		log.Error("Error sending link joined email ", err)

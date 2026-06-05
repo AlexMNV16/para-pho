@@ -184,7 +184,7 @@ const EnteColorScheme darkScheme = EnteColorScheme(
   _pinnedBgColorDark,
 );
 
-const accentColor = Color(0xFF8F33D6);
+const accentColor = Color(0xFFE6C79C);
 
 // QR code container background
 const Color qrBoxColor = Color.fromRGBO(245, 245, 247, 1);
@@ -250,12 +250,12 @@ const Color blurStrokePressedDark = Color.fromRGBO(255, 255, 255, 0.50);
 
 const Color _primaryGreen = Color.fromRGBO(29, 185, 84, 1);
 
-const Color _primary700 = Color(0xFF722ED1);
+const Color _primary700 = Color(0xFFC9A87C);
 const Color _primary500 = accentColor;
-const Color _primary400 = Color(0xFF7A29C1);
-const Color _primary300 = Color(0xFF984DF4);
+const Color _primary400 = Color(0xFFD4B48A);
+const Color _primary300 = Color(0xFFEDD5B5);
 
-const Color _iconButtonBrightColor = Color.fromRGBO(130, 50, 225, 1);
+const Color _iconButtonBrightColor = Color(0xFFE6C79C);
 const Color _iconButtonDarkColor = Color.fromRGBO(255, 150, 16, 1);
 
 const Color _warning700 = Color.fromRGBO(245, 52, 52, 1);
@@ -320,8 +320,8 @@ const List<Color> avatarDark = [
 ];
 
 // Tags
-const Color _tagChipUnselectedColorLight = Color(0xFFFCF5FF);
-const Color _tagChipUnselectedColorDark = Color(0xFF1C0F22);
+const Color _tagChipUnselectedColorLight = Color(0xFFFFF8F0);
+const Color _tagChipUnselectedColorDark = Color(0xFF1D1F2F);
 const List<Color> _tagChipUnselectedGradientLight = [
   Color(0x33AD00FF),
   Color(0x338609C2),
@@ -330,16 +330,16 @@ const List<Color> _tagChipUnselectedGradientDark = [
   Color(0xFFAD00FF),
   Color(0x87A269BD),
 ];
-const Color _tagChipSelectedColor = Color(0xFF722ED1);
+const Color _tagChipSelectedColor = Color(0xFFC9A87C);
 const List<Color> _tagChipSelectedGradientLight = [
-  Color(0xFFB37FEB),
-  Color(0xFFAE40E3),
+  Color(0xFFEDD5B5),
+  Color(0xFFE6C79C),
 ];
 const List<Color> _tagChipSelectedGradientDark = [
-  Color(0xFFB37FEB),
-  Color(0x87AE40E3),
+  Color(0xFFEDD5B5),
+  Color(0x87E6C79C),
 ];
-const Color _tagTextUnselectedColor = Color(0xFF8232E1);
+const Color _tagTextUnselectedColor = Color(0xFFE6C79C);
 const Color _deleteTagIconColor = Color(0xFFF53434);
 const Color _deleteTagTextColor = Color(0xFFF53434);
 

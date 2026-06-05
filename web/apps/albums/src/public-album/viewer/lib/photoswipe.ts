@@ -1417,7 +1417,7 @@ export class FileViewerPhotoSwipe {
                     name: "ente-logo",
                     order: 5,
                     isButton: true,
-                    title: "Ente",
+                    title: "Parafilm",
                     html: publicAlbumEnteLogoHTML(),
                     onClick: () => {
                         window.open("https://ente.com", "_blank", "noopener");

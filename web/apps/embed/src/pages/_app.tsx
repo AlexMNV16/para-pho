@@ -70,7 +70,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
     return (
         <>
-            <CustomHead title="Ente Photos" />
+            <CustomHead title="Parafilm Photos" />
             <ThemeProvider theme={photosTheme}>
                 <CssBaseline enableColorScheme />
                 <BaseContext.Provider value={baseContext}>

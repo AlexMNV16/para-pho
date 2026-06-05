@@ -11,8 +11,8 @@ import (
 const (
 	storageWarningLoginGraceBaseTemplate = "ente_base.html"
 	storageWarningLoginGraceTemplate     = "storage-warning/storage_warning_login_grace.html"
-	storageWarningLoginGraceSubject      = "Temporary access restored to your Ente account"
-	storageWarningLoginGraceFromName     = "Ente"
+	storageWarningLoginGraceSubject      = "Temporary access restored to your Parafilm account"
+	storageWarningLoginGraceFromName     = "Parafilm"
 	storageWarningLoginGraceFromEmail    = "support@ente.com"
 )
 

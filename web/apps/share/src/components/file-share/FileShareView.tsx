@@ -66,7 +66,7 @@ export const FileShareView: React.FC = () => {
                         },
                     }}
                 >
-                    {/* Ente Locker Logo */}
+                    {/* Parafilm Locker Logo */}
                     <Box
                         sx={{
                             width: "100%",
@@ -92,7 +92,7 @@ export const FileShareView: React.FC = () => {
                                 <Box
                                     component="img"
                                     src="/images/ente-locker.svg"
-                                    alt="Ente Locker"
+                                    alt="Parafilm Locker"
                                     sx={{ height: "56px", cursor: "pointer" }}
                                 />
                             </picture>

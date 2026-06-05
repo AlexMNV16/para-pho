@@ -270,18 +270,18 @@ func (c *Controller) sendNotification(ctx context.Context, adminUserID int64, me
 
 	if newStatus == ente.INVITED {
 		templateName = InviteTemplate
-		title = "You've been invited to join a family on Ente!"
+		title = "You've been invited to join a family on Parafilm!"
 		emailTo = memberUser.Email
 		inlineImage["content"] = HappyHeaderImage
 	} else if newStatus == ente.REMOVED {
 		emailTo = memberUser.Email
 		templateName = RemovedTemplate
-		title = "You have been removed from the family account on Ente"
+		title = "You have been removed from the family account on Parafilm"
 		inlineImage["content"] = SadHeaderImage
 	} else if newStatus == ente.LEFT {
 		emailTo = adminUser.Email
 		templateName = LeftTemplate
-		title = fmt.Sprintf("%s has left your family on Ente", memberUser.Email)
+		title = fmt.Sprintf("%s has left your family on Parafilm", memberUser.Email)
 		inlineImage["content"] = SadHeaderImage
 	} else if newStatus == ente.ACCEPTED {
 		emailTo = adminUser.Email

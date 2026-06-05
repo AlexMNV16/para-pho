@@ -32,7 +32,7 @@ export const PasteFooter = () => {
                 href="https://ente.com"
                 target="_blank"
                 rel="noopener"
-                aria-label="Ente"
+                aria-label="Parafilm"
                 sx={{
                     lineHeight: 0,
                     color: tokens.text.footer,

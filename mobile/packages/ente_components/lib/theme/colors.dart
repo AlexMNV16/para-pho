@@ -475,7 +475,7 @@ const Color purpleDarkerLight = Color.fromRGBO(93, 8, 132, 1);
 const Color purpleDarkerDark = Color.fromRGBO(93, 8, 132, 1);
 
 // Blue Colors
-const Color blueLightLight = Color.fromRGBO(231, 239, 250, 1);
+const Color blueLightLight = Color.fromRGBO(253, 232, 232, 1);
 const Color blueLightDark = Color.fromRGBO(41, 41, 41, 1);
 
 const Color blueLightHoverLight = Color.fromRGBO(216, 228, 244, 1);
@@ -484,17 +484,17 @@ const Color blueLightHoverDark = Color.fromRGBO(26, 38, 56, 1);
 const Color blueLightPressedLight = Color.fromRGBO(194, 210, 232, 1);
 const Color blueLightPressedDark = Color.fromRGBO(17, 30, 49, 1);
 
-const Color blueStrokeLight = Color.fromRGBO(16, 113, 255, 1);
-const Color blueStrokeDark = Color.fromRGBO(16, 113, 255, 1);
+const Color blueStrokeLight = Color.fromRGBO(247, 87, 87, 1);
+const Color blueStrokeDark = Color.fromRGBO(247, 87, 87, 1);
 
-const Color blueDefaultLight = Color.fromRGBO(16, 113, 255, 1);
-const Color blueDefaultDark = Color.fromRGBO(16, 113, 255, 1);
+const Color blueDefaultLight = Color.fromRGBO(247, 87, 87, 1);
+const Color blueDefaultDark = Color.fromRGBO(247, 87, 87, 1);
 
-const Color blueDarkLight = Color.fromRGBO(14, 95, 217, 1);
-const Color blueDarkDark = Color.fromRGBO(14, 95, 217, 1);
+const Color blueDarkLight = Color.fromRGBO(217, 69, 69, 1);
+const Color blueDarkDark = Color.fromRGBO(217, 69, 69, 1);
 
-const Color blueDarkerLight = Color.fromRGBO(11, 76, 173, 1);
-const Color blueDarkerDark = Color.fromRGBO(11, 76, 173, 1);
+const Color blueDarkerLight = Color.fromRGBO(184, 58, 58, 1);
+const Color blueDarkerDark = Color.fromRGBO(184, 58, 58, 1);
 
 // Warning Colors
 const Color warningLightLight = Color.fromRGBO(250, 235, 235, 1);

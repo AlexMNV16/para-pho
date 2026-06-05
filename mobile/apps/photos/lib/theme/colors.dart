@@ -261,8 +261,8 @@ const EnteColorScheme darkScheme = EnteColorScheme(
 );
 
 // Background
-const Color backgroundColorLight = Color.fromRGBO(244, 244, 244, 1);
-const Color backgroundColorDark = Color.fromRGBO(22, 22, 22, 1);
+const Color backgroundColorLight = Color.fromRGBO(250, 250, 250, 1);
+const Color backgroundColorDark = Color.fromRGBO(29, 31, 47, 1);
 
 const Color backgroundElevatedLight = Color.fromRGBO(255, 255, 255, 1);
 const Color backgroundElevated2Light = Color.fromRGBO(251, 251, 251, 1);
@@ -341,10 +341,10 @@ const Color strokeSolidFaintLight = Color.fromRGBO(221, 221, 221, 1);
 // QR Code specific - always light for scanability
 const Color qrBoxColor = Color.fromRGBO(245, 245, 247, 1);
 
-const Color _primary700 = Color.fromRGBO(0, 179, 60, 1);
-const Color _primary500 = Color.fromRGBO(29, 185, 84, 1);
-const Color _primary400 = Color.fromRGBO(38, 203, 95, 1);
-const Color _primary300 = Color.fromRGBO(1, 222, 77, 1);
+const Color _primary700 = Color.fromRGBO(217, 69, 69, 1);
+const Color _primary500 = Color.fromRGBO(247, 87, 87, 1);
+const Color _primary400 = Color.fromRGBO(249, 107, 107, 1);
+const Color _primary300 = Color.fromRGBO(251, 142, 142, 1);
 
 const Color _warning700 = Color.fromRGBO(234, 63, 63, 1);
 const Color _warning500 = Color.fromRGBO(255, 101, 101, 1);
@@ -410,11 +410,11 @@ const List<Color> avatarDark = [
 ];
 
 // Green Colors
-const Color green = Color.fromRGBO(8, 194, 37, 1);
+const Color green = Color.fromRGBO(247, 87, 87, 1);
 const Color greenLightLight = Color.fromRGBO(231, 246, 233, 1);
 const Color greenLightDark = Color.fromRGBO(33, 33, 33, 1);
-const Color greenDark = Color.fromRGBO(6, 157, 30, 1);
-const Color greenDarker = Color.fromRGBO(5, 124, 24, 1);
+const Color greenDark = Color.fromRGBO(217, 69, 69, 1);
+const Color greenDarker = Color.fromRGBO(184, 58, 58, 1);
 const Color greenStrokeLight = Color.fromRGBO(186, 236, 194, 1);
 const Color greenStrokeDark = Color.fromRGBO(28, 65, 34, 1);
 

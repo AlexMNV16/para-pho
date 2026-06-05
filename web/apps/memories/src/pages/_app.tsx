@@ -10,7 +10,7 @@ import Head from "next/head";
 import React from "react";
 
 const memoriesAppStyle = { "--font-itim": "'Itim'" } as React.CSSProperties;
-const memoriesAppTitle = "Ente Memories";
+const memoriesAppTitle = "Parafilm Memories";
 
 function MemoriesAppHead() {
     const previewImage = "https://memories.ente.com/images/memories-meta.png";

@@ -70,7 +70,7 @@ export const PublicShareScaffold: React.FC<PublicShareScaffoldProps> = ({
                             <Box
                                 component="img"
                                 src="/images/ente-locker.svg"
-                                alt="Ente Locker"
+                                alt="Parafilm Locker"
                                 sx={{ height: "56px", cursor: "pointer" }}
                             />
                         </picture>

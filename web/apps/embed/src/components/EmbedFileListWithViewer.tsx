@@ -88,7 +88,7 @@ export const EmbedFileListWithViewer: React.FC<
                                 color: "inherit",
                                 textDecoration: "none",
                                 "&:visited": { color: "inherit" },
-                                "&:hover": { color: "#1db954" },
+                                "&:hover": { color: "#f75757" },
                             }}
                         >
                             <EnteLogo height={14} />

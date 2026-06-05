@@ -398,7 +398,7 @@ func (c *UserController) GetActiveSessions(context *gin.Context, userID int64) (
 
 const (
 	StorageWarningDeletionScheduledCode    = "ACCOUNT_SCHEDULED_FOR_DELETION"
-	StorageWarningDeletionScheduledMessage = "Access to this account has been restricted because its Ente Photos and Ente Locker data is scheduled for deletion. If you think this was a mistake, please reply to this email."
+	StorageWarningDeletionScheduledMessage = "Access to this account has been restricted because its Parafilm Photos and Parafilm Locker data is scheduled for deletion. If you think this was a mistake, please reply to this email."
 )
 
 func shouldEnforceStorageWarningDeletionLoginBlock(app ente.App) bool {
@@ -493,13 +493,13 @@ func (c *UserController) AddTokenAndNotify(ctx context.Context, userID int64, ap
 		}
 		if strings.HasSuffix(emailUtil.NormalizeEmail(user.Email), "@ente.io") {
 			appDisplayNames := map[ente.App]string{
-				ente.Photos: "Ente Photos",
-				ente.Auth:   "Ente Auth",
-				ente.Locker: "Ente Locker",
+				ente.Photos: "Parafilm Photos",
+				ente.Auth:   "Parafilm Auth",
+				ente.Locker: "Parafilm Locker",
 			}
 			appName, ok := appDisplayNames[app]
 			if !ok {
-				appName = "Ente"
+				appName = "Parafilm"
 			}
 			device := "Unknown Device"
 			if strings.TrimSpace(userAgent) != "" {
@@ -509,7 +509,7 @@ func (c *UserController) AddTokenAndNotify(ctx context.Context, userID int64, ap
 			templateData["Device"] = device
 			templateData["IP"] = ip
 		}
-		emailSendErr := emailUtil.SendTemplatedEmail([]string{user.Email}, "Ente", "team@ente.com", emailCtrl.LoginSuccessSubject, emailCtrl.LoginSuccessTemplate, templateData, nil)
+		emailSendErr := emailUtil.SendTemplatedEmail([]string{user.Email}, "Parafilm", "team@ente.com", emailCtrl.LoginSuccessSubject, emailCtrl.LoginSuccessTemplate, templateData, nil)
 		if emailSendErr != nil {
 			log.WithError(emailSendErr).Error("Failed to send email")
 		}
@@ -587,7 +587,7 @@ func emailOTT(app ente.App, to string, ott string, purpose string, mobile bool) 
 		}
 	}
 	subject := fmt.Sprintf("Verification code: %s", ott)
-	err := emailUtil.SendTemplatedEmail([]string{to}, "Ente", "verify@ente.com",
+	err := emailUtil.SendTemplatedEmail([]string{to}, "Parafilm", "verify@ente.com",
 		subject, templateName, map[string]interface{}{
 			"VerificationCode": ott,
 		}, nil)

@@ -49,7 +49,7 @@ const Page: React.FC = () => {
 
     return (
         <>
-            <CustomHeadShare title="Ente Locker" />
+            <CustomHeadShare title="Parafilm Locker" />
             <Head>
                 <meta name="robots" content="noindex, nofollow" />
             </Head>

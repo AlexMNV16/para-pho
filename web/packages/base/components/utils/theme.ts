@@ -172,7 +172,7 @@ const getColors = (appName: AppName) => ({
  * reusable colors.
  */
 const _colors = {
-    accentPhotos: { dark: "#00b33c", main: "#1db954", light: "#01de4d" },
+    accentPhotos: { dark: "#d94040", main: "#f75757", light: "#ff6b6b" },
     accentAuth: { dark: "#8e0fcb", main: "#9610d6", light: "#8e2de2" },
     accentShare: { dark: "#0056CC", main: "#1071FF", light: "#1071FF" },
     accentEnsu: { dark: "#f5d93a", main: "#f5d93a", light: "#f5d93a" },
@@ -180,7 +180,7 @@ const _colors = {
     fixed: {
         white: "#fff",
         black: "#000",
-        success: "#1db954",
+        success: "#f75757",
         golden: "#ffc107",
         danger: { dark: "#f53434", main: "#ea3f3f", light: "#ff6565" },
         switchOn: "#2eca45",

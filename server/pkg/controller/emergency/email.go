@@ -117,7 +117,7 @@ func (c *Controller) sendContactNotification(ctx context.Context, legacyUserID i
 
 	for _, data := range emailDatas {
 		content := data
-		err = emailUtil.SendTemplatedEmailV2([]string{content.emailTo}, "Ente", "team@ente.com",
+		err = emailUtil.SendTemplatedEmailV2([]string{content.emailTo}, "Parafilm", "team@ente.com",
 			content.title, BaseTemplate, content.templateName, content.templateData, content.inlineImages)
 		if err != nil {
 			log.WithError(err).WithFields(log.Fields{
@@ -149,7 +149,7 @@ func (c *Controller) createRecoveryEmailData(legacyUser, trustedUser ente.User, 
 			templateData["DaysLeft"] = int64(30)
 		}
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account recovery initiated",
+			title:        "Parafilm account recovery initiated",
 			templateName: RecoveryStartedTemplate,
 			emailTo:      legacyUser.Email,
 			templateData: templateData,
@@ -157,14 +157,14 @@ func (c *Controller) createRecoveryEmailData(legacyUser, trustedUser ente.User, 
 		})
 	case ente.RecoveryStatusRecovered:
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account password reset",
+			title:        "Parafilm account password reset",
 			templateName: RecoveryCompletedLegacyTemplate,
 			emailTo:      legacyUser.Email,
 			templateData: templateData,
 			inlineImages: []map[string]interface{}{},
 		})
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account recovery successful",
+			title:        "Parafilm account recovery successful",
 			templateName: RecoveryCompletedTrustedTemplate,
 			emailTo:      trustedUser.Email,
 			templateData: templateData,
@@ -173,7 +173,7 @@ func (c *Controller) createRecoveryEmailData(legacyUser, trustedUser ente.User, 
 
 	case ente.RecoveryStatusStopped:
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account recovery cancelled",
+			title:        "Parafilm account recovery cancelled",
 			templateName: RecoveryCancelledTemplate,
 			emailTo:      legacyUser.Email,
 			templateData: templateData,
@@ -181,7 +181,7 @@ func (c *Controller) createRecoveryEmailData(legacyUser, trustedUser ente.User, 
 		})
 	case ente.RecoveryStatusRejected:
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account recovery blocked",
+			title:        "Parafilm account recovery blocked",
 			templateName: RecoveryRejectedTemplate,
 			emailTo:      trustedUser.Email,
 			templateData: templateData,
@@ -189,7 +189,7 @@ func (c *Controller) createRecoveryEmailData(legacyUser, trustedUser ente.User, 
 		})
 	case ente.RecoveryStatusWaiting:
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account recovery due",
+			title:        "Parafilm account recovery due",
 			templateName: RecoveryReminderTemplate,
 			emailTo:      legacyUser.Email,
 			templateData: templateData,
@@ -197,14 +197,14 @@ func (c *Controller) createRecoveryEmailData(legacyUser, trustedUser ente.User, 
 		})
 	case ente.RecoveryStatusReady:
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account recoverable",
+			title:        "Parafilm account recoverable",
 			templateName: RecoveryReadyTrustedTemplate,
 			emailTo:      trustedUser.Email,
 			templateData: templateData,
 			inlineImages: []map[string]interface{}{},
 		})
 		emailDatas = append(emailDatas, emailData{
-			title:        "Ente account recoverable",
+			title:        "Parafilm account recoverable",
 			templateName: RecoveryReadyLegacyTemplate,
 			emailTo:      legacyUser.Email,
 			templateData: templateData,
@@ -234,7 +234,7 @@ func (c *Controller) sendRecoveryNotification(ctx context.Context, legacyUserID 
 
 	for _, data := range emailDatas {
 		content := data
-		err = emailUtil.SendTemplatedEmailV2([]string{content.emailTo}, "Ente", "team@ente.com",
+		err = emailUtil.SendTemplatedEmailV2([]string{content.emailTo}, "Parafilm", "team@ente.com",
 			content.title, BaseTemplate, content.templateName, content.templateData, content.inlineImages)
 		if err != nil {
 			log.WithError(err).WithFields(log.Fields{

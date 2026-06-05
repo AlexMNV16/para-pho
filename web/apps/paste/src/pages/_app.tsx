@@ -13,7 +13,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
 
     return (
         <ThemeProvider theme={shareTheme} defaultMode="dark">
-            <CustomHead title="Ente Paste" />
+            <CustomHead title="Parafilm Paste" />
             <CssBaseline enableColorScheme />
             <Component {...pageProps} />
         </ThemeProvider>

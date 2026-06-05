@@ -101,7 +101,7 @@ const (
 	// their account.
 	AccountDeletedEmailTemplate                       = "account_deleted.html"
 	AccountDeletedWithActiveSubscriptionEmailTemplate = "account_deleted_active_sub.html"
-	AccountDeletedEmailSubject                        = "Your Ente account has been deleted"
+	AccountDeletedEmailSubject                        = "Your Parafilm account has been deleted"
 	accountRecoveryLinkHost                           = "https://api.ente.com"
 	accountRecoveryLinkValidityDays                   = 7
 )

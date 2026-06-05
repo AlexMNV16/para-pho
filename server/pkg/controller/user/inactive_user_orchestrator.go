@@ -26,7 +26,7 @@ const (
 	inactiveUserDeletionBatchSize    = 500
 	inactiveUserWorkerCount          = 6
 	inactiveUserEmailInFlightLimit   = 4
-	inactiveUserDeletionFromName     = "Ente"
+	inactiveUserDeletionFromName     = "Parafilm"
 	inactiveUserDeletionFromEmail    = "team@ente.com"
 	inactiveUserDeletionBaseTemplate = "ente_base.html"
 
@@ -42,11 +42,11 @@ const (
 	inactiveUserDeletionWarn1dTemplate = "inactive-user-deletion/warn_1d.html"
 	inactiveUserDeletionFinalTemplate  = "inactive-user-deletion/confirm_13m.html"
 
-	inactiveUserDeletionWarn2mSubject = "Action needed: Keep your Ente account active"
-	inactiveUserDeletionWarn1mSubject = "Reminder: Sign in within 30 days to keep your Ente account"
-	inactiveUserDeletionWarn7dSubject = "7-day reminder: Your Ente account is scheduled for deletion"
-	inactiveUserDeletionWarn1dSubject = "Final reminder: Your Ente account will be deleted tomorrow"
-	inactiveUserDeletionFinalSubject  = "Your Ente account has been deleted due to inactivity"
+	inactiveUserDeletionWarn2mSubject = "Action needed: Keep your Parafilm account active"
+	inactiveUserDeletionWarn1mSubject = "Reminder: Sign in within 30 days to keep your Parafilm account"
+	inactiveUserDeletionWarn7dSubject = "7-day reminder: Your Parafilm account is scheduled for deletion"
+	inactiveUserDeletionWarn1dSubject = "Final reminder: Your Parafilm account will be deleted tomorrow"
+	inactiveUserDeletionFinalSubject  = "Your Parafilm account has been deleted due to inactivity"
 )
 
 const (
